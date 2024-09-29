@@ -1,0 +1,65 @@
+.reviewContainer .slick-slide>div:first-child {
+    margin: 0 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.home .slider-container {
+    height: 100%;
+}
+
+.reviewContainer .slick-dots li button:before {
+    font-size: 10px;
+}
+
+.best-sell .slick-dots li.slick-active button:before,
+.best-sell .slick-dots li button:before {
+    font-size: 10px;
+}
+
+.best-sell .slick-initialized .slick-slide>div:first-child {
+    margin: 0 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.slick-slider>div:first-child::before {
+    display: none;
+}
+
+.slick-next::before {
+    display: none;
+}
+
+.slick-dots li button:before {
+    font-size: .8rem;
+    top: 1.5rem;
+    color: gray;
+}
+
+.home .slick-slider .slick-dots li.slick-active button:before,
+.home .slick-slider .slick-dots li.slick-active button:before,
+.home .slick-slider .slick-dots li button:before {
+    display: none;
+}
+
+.home .slider-container .slick-slider {
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width : 768px) {
+
+    .best-sell .slick-dots li.slick-active button:before,
+    .best-sell .slick-dots li button:before {
+        font-size: 7px;
+    }
+
+    .reviewContainer .slick-dots li button:before,
+    .reviewContainer .slick-dots li button:after {
+        font-size: 7px;
+    }
+}
